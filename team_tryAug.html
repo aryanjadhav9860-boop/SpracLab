@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+
+<!-- Mirrored from SparcLab/publications by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Jan 2020 00:28:44 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<!-- /Added by HTTrack -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="static/css/main.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/bootstrap/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="https:https://https:https://https:https://https:https://https:https://https:https://https:https://https:https://https:https://https://https://https://https://https://https://https://https://https:https://https:https://https:https://https:https://https:/https://https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="static/css/styple.css" type="text/css">
+
+    <!-- ADDED style for pdf icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+
+
+    <style>
+        .filterDiv {
+            display: none;
+        }
+        
+        .show {
+            display: block;
+        }
+    </style>
+
+
+    <style>
+        .dropdown-submenu {
+            position: relative;
+        }
+        
+        .dropdown-submenu .dropdown-menu {
+            top: 0;
+            left: 100%;
+            margin-top: -1px;
+        }
+    </style>
+
+
+
+    <script>
+        $('.dropdown-submenu > a').on("click", function(e) {
+            var submenu = $(this);
+            $('.dropdown-submenu .dropdown-menu').removeClass('show');
+            submenu.next('.dropdown-menu').addClass('show');
+            e.stopPropagation();
+        });
+
+        $('.dropdown').on("hidden.bs.dropdown", function() {
+            // hide any open menus when parent closes
+            $('.dropdown-menu.show').removeClass('show');
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown, .btn-group").hover(function() {
+                var dropdownMenu = $(this).children(".dropdown-menu");
+                if (dropdownMenu.is(":visible")) {
+                    dropdownMenu.parent().toggleClass("open");
+                }
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="static/bib-publication-list/bib-publication-list.css" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+</head>
+
+
+
+
+
+
+<body>
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-custom">
+
+            <a class="navbar-brand" href="#">SPARC Lab</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mx-auto">
+                    <!--      <li class="nav-item active">-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                        <!--          <span class="sr-only">(current)</span>-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="research.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research Areas</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="research.html">Ongoing Research Area</a></li>
+                                <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="highspeedio.html">Completed Research Area</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="highspeedio.html">High Speed IO</a></li>
+                                        <li><a class="dropdown-item" href="lowpower.html">Low-Power</a></li>
+                                        <li><a class="dropdown-item" href="rftest.html">RF Test</a></li>
+                                        <li><a class="dropdown-item" href="speciesidentification.html">Species Identification</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+                            <!--        dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Highlights</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                    <a class="dropdown-item" href="news.html">News</a>
+                                    <a class="dropdown-item" href="media.html">Media</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="awards.html">Awards</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team.html">Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="publications.html">Publications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="teaching.html">Teaching</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="service.html">Service</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="chip.html">Chip Gallery</a>
+                            </li>
+                            <!--<li class="nav-item">
+                    <a class="nav-link" href="OpenSERDES.html">OpenSERDES</a>
+                </li>-->
+                            <li class="nav-item">
+                                <a class="nav-link" href="open.html">Openings</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="HBC_Survey.html">HBC Survey</a>
+                            </li>
+
+                            <!--      <li class="nav-item">-->
+                            <!--        <a class="nav-link disabled" href="#">Disabled</a>-->
+                            <!--      </li>-->
+                </ul>
+            </div>
+        </nav>
+        <style>
+            .navbar-nav li:hover>ul.dropdown-menu {
+                display: block;
+            }
+            
+            .dropdown-submenu {
+                position: relative;
+            }
+            
+            .dropdown-submenu>.dropdown-menu {
+                top: 0;
+                left: 100%;
+                margin-top: -6px;
+            }
+            /* rotate caret on hover */
+            
+            .dropdown-menu>li>a:hover:after {
+                text-decoration: underline;
+                transform: rotate(-90deg);
+            }
+        </style>
+
+        <style>
+            .filterDiv {
+                float: left;
+                /* background-color: #2196F3; */
+                /* color: black; */
+                /* width: 100px;
+  line-height: 100px;
+  text-align: center;
+  */
+                margin: 2px;
+                display: none;
+            }
+            
+            .show {
+                display: block;
+            }
+            
+            .container {
+                margin-top: 20px;
+                overflow: hidden;
+            }
+            /* Style the buttons */
+            /*            .btn {*/
+            /*                border: none;*/
+            /*                outline: none;*/
+            /*                padding: 12px 16px;*/
+            /*                background-color: #f1f1f1;*/
+            /*                cursor: pointer;*/
+            /*            }*/
+            /*            .btn:hover {*/
+            /*                background-color: #ddd;*/
+            /*            }*/
+            /*            .btn.active {*/
+            /*                background-color: #666;*/
+            /*                color: white;*/
+            /*            }*/
+        </style>
+    </div>
+
+
+    <div class="canvas">
+        <div class="container-fluid">
+            <div class="container" style="padding: 5px auto">
+
+                <ul class="nav nav-tabs" id="myTab" style="justify-content: center " role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">All</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="current-tab" data-toggle="tab" href="#current" role="tab" aria-controls="current" aria-selected="false">Current Students/Scholars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="alumni-tab" data-toggle="tab" href="#alumni" role="tab" aria-controls="alumni" aria-selected="false">Alumni</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+
+
+        <div class="tab-content" id="myTabContent">
+
+
+
+            <!-- TODO: reorder the experience in descending order done -->
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+
+
+                <!-- ------------------------------------------------------------------------------------------------
+			...................................CURRENT MASTERS & PHD................................................. 
+			--------------------------------------------------------------------------------------------------- -->
+                <div class="card bg-primary text-white flex-column" align="center">
+                    <span> Ph.D. and Master's Research Students</span>
+                </div>
+
+
+
+                <div class="row" style="margin-left: 50px">
+
+
+
+
+                    <!-- David -->
+                    <div class="card" style="width: 18rem">
+                        <div class=" box_pic img__wrap">
+                            <img src="static/img/team_21/David.jpeg" alt="David">
+                            <divo class="card-body">
+                                <ul class="img__description">
+                                    <li class="accent">Degree/Experience:</li>
+                                    <ul>
+                                        <li>B.S.E.E., Purdue University (2019) </li>
+                                        <li> Systems Design Engineer Co-op, FCA (2017-2019) </li>
+                                    </ul>
+                                    <li class="accent">Honors/Awards:</li>
+                                    <ul>
+                                        <li> Purdue Center for Secure Microelectronics Traineeship (2021) </li>
+                                        <li>Purdue University ECE Graduate Four-Year Scholarship Award (2019) </li>
+                                        <li>Giles Morrill Mem Scholarship (2018) </li>
+                                        <li>Bohl ECE Scholarship (2017) </li>
+                                        <li>Ernest E Swanbeck Scholarship (2016) </li>
+                                    </ul>
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body">
+
+                            <p class="card-title"> <b>David Yang  </b> <br>
+
+                                <a href="https://www.linkedin.com/in/david-yang-b20521121/" role="button"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                                <a href="mailto:yang996@purdue.edu" role="button"><i style="font-size:24px" class="fa">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/david-yang-b20521121/" role="button"> <i style="font-size:24px" class="fa">&#xf0ac; 					</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px" class="fa">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+                    <!-- Faizul -->
+                    <div class="card" style="width: 18rem">
+                        <div class=" box_pic img__wrap">
+                            <img src="static/img/team_21/FB.jpg" alt="Faizul">
+                            <divo class="card-body">
+                                <ul class="img__description">
+                                    <li class="accent">Degree/Experience:</li>
+
+                                    <ul>
+                                        <li>M.Sc.Engg. and B.Sc.Engg. from BUET (2017 & 2020)</li>
+                                        <li>Lecturer at the University of Asia Pacific (2018-19)</li>
+                                        <li>Design Engineer at Neural Semiconductor Ltd (2017-18)</li>
+                                        <li>Internship: Intel Labs (2020)</li>
+                                    </ul>
+                                    <li class="accent">Honors/Awards: </li>
+                                    <ul>
+                                        <li>Magoon Award for Excellence in Teaching (2020)</li>
+                                        <li>Purdue University Computer and Information Systems Fellowship (2019)</li>
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body">
+                            <!--                        class="caption">-->
+                            <p class="card-title"> <b>Md Faizul Bari  </b> <br>
+
+                                <a href="https://www.linkedin.com/in/mdfaizulbari" role="button"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                                <a href="mailto:mbari@purdue.edu" role="button"><i style="font-size:24px" class="fa">&#xf003;</i></a>
+                                <a href="https://faizul.webnode.com/" role="button"> <i style="font-size:24px" class="fa">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px" class="fa">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- Jie -->
+                    <div class="card" style="width: 18rem">
+                        <div class=" box_pic img__wrap">
+                            <img src="static/img/team_21/JY.jpg" alt="Lights">
+                            <divo class="card-body">
+                                <ul class="img__description">
+                                    <li class="accent">Degree/Experience:</li>
+                                    <ul>
+                                        <li>B.S., Rose-Hulman Institute of Technology (2020)</li>
+                                    </ul>
+
+                                    <li class="accent">Honors/Awards:</li>
+                                    <ul>
+                                        <li> Outstanding Senior Award, Rose-Hulman Institute of Technology (2020)</li>
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body">
+                            <!--                        class="caption">-->
+                            <p class="card-title"> <b>Jie Yang</b> <br>
+
+                                <a href="https://www.linkedin.com/in/jie-yang-085522131/" role="button"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                                <a href="mailto:yang1122@purdue.edu" role="button"><i style="font-size:24px" class="fa">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/jie-yang-085522131/" role="button"> <i style="font-size:24px" class="fa">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px" class="fa">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Yudhajit -->
+                    <div class="card" style="width: 18rem">
+                        <div class=" box_pic img__wrap">
+                            <img src="static/img/team_21/YR.jpg" alt="Yudhajit">
+                            <divo class="card-body">
+                                <ul class="img__description">
+                                    <li class="accent">Degree/Experience:</li>
+                                    <ul>
+                                        <li>B.Tech., M.Tech at Indian Institute of Technology, Kharagpur</li>
+                                    </ul>
+
+                                    <li class="accent">Honors/Awards:</li>
+                                    <ul>
+                                        <li> KVPY Fellow scholarship(2015)</li>
+                                        <li> Qualified for Indian Chemistry Olympiad (2015)</li>
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body">
+                            <!--                        class="caption">-->
+                            <p class="card-title"> <b>Yudhajit Ray</b> <br>
+
+                                <a href="https://www.linkedin.com/in/yudhajit-ray-161836214" role="button"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                                <a href="mailto:rayy@purdue.edu" role="button"><i style="font-size:24px" class="fa">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/yudhajit-ray-161836214 " role="button"> <i style="font-size:24px" class="fa">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px" class="fa">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+                    <!-- Gourab -->
+                    <div class="card" style="width: 18rem">
+                        <div class=" box_pic img__wrap">
+                            <img src="static/img/team_21/Gourab.jpg" alt="Gourab">
+                            <divo class="card-body">
+                                <ul class="img__description">
+                                    <li class="accent">Degree/Experience:</li>
+                                    <ul>"
+                                        <li> B.Tech,ETC,Indian Institute of Engineering Science and Technology,Shibpur(2019)</li>
+                                        <li> International Linkage Degree Learning Program, Hiroshima University, Japan, 2018. </li>
+                                        <li> Analog Design Engineer, Tagore Technology (2019-2021).</li>
+                                    </ul>
+
+                                    <li class="accent">Honors/Awards:</li>
+                                    <ul>
+                                        <li>JN Tata Scholarship.</li>
+                                        <li>Narottam Sekhsaria Foundation Scholarship. </li>
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body">
+                            <!--                        class="caption">-->
+                            <p class="card-title"> <b>Gourab Barik</b> <br>
+
+                                <a href="https://www.linkedin.com/in/gourab-barik-9a4159123" role="button"><i style="font-size:24px" class="fa">&#xf0e1;</i></a>
+                                <a href="mailto:gbarik@purdue.edu" role="button"><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/gourab-barik-9a4159123 " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+
+                        </div>
+                    </div>
+
+
+
+                    <!-- Meghna -->
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Meghna.jpg " alt="Meghna ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> B.Tech, Electronics and Communication Engineering, Vellore Institute of Technology (2020) </li>
+                                        <li> Machine Learning Developer, Tata Consultancy Services Research and Innovation (2020-2021) </li>
+                                        <li> Research Intern (Deep Learning), Yuan Ze University (Summer 2020) </li>
+                                        <li> Research Intern (Hardware Security), IIT Kharagpur (Summer 2019) </li>
+
+                                    </ul>
+
+                                    <!--
+                                <li class="accent ">Honors/Awards:</li>
+            <ul>
+                                    <li> </li>
+                                    
+                                </ul>
+            -->
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Meghna Roy Chowdhury</b> <br>
+
+                                <a href="https://www.linkedin.com/in/meghnaroyc/ " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:mroycho@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://roycmeghna.github.io " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--<i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Samyadip -->
+                    <div class="card " style="width: 18rem; ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Samyadip.jpg " alt="Samyadip ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> BE, Instrumentation and Electronics Engineering, Jadavpur University, Kolkata (2014-2018) </li>
+                                        <li> M.Tech, Instrumentation and Signal Processing, Indian Institute of Technology Kharagpur (2018-2020) </li>
+                                        <li> Post Graduate Researcher, IIT Kharagpur (2020-2021) </li>
+                                    </ul>
+
+                                    <li class="accent ">Honors/Awards:</li>
+                                    <ul>
+                                        <li>University Gold Medalist, Department of Instrumentation and Electronics Engineering Faculty -Jadavpur University(2018)</li>
+                                        <li>'Meera Rani Mitra Memorial Award from the Alumni Association NCE </li>
+                                        <li>Bengal & Jadavpur University, Kolkata(2017) </li>
+                                        <li>Recipient of Indu Bhusan Putatunda and Shanti Sudha Putatunda Memorial </li>
+                                        <li>Award from the Alumni Association NCE Bengal & Jadavpur University, Kolkata(2016) </li>
+                                    </ul>
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Samyadip Sarkar </b> <br>
+
+                                <a href="https://www.linkedin.com/in/samyadip-sarkar-660512210 " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:sarkar46@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/samyadip-sarkar-660512210 "><i style="font-size:24px " class="fa ">&#xf0ac;</i></a></p>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Sukriti -->
+                    <div class="card " style="width: 18rem; ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Sukriti.jpg " alt="Sukriti ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> B.Tech., Electronics and Computer Engineering, SRMIST, Chennai (2020)</li>
+                                        <li> Research Intern, SensorDrop Networks, IIT Kharagpur (Summer 2020) </li>
+                                        <li> Research Intern, NUS-School of Computing, Singapore (Dec19-Jan20) </li>
+                                    </ul>
+
+                                    <!--
+            <li class="accent ">Honors/Awards:</li>
+                                   <ul>
+                
+            </ul>
+            -->
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Sukriti Shaw </b> <br>
+
+                                <a href="https://www.linkedin.com/in/sukriti-shaw " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:shaw161@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/sukriti-shaw "><i style="font-size:24px " class="fa ">&#xf0ac;</i></a></p>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Ling ke  -->
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/LKD.png " alt="Ling Ke ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> National University of Singapore (Electrical Engineering, Innovation & Design Program double major)(2022) </li>
+                                        <li> Assistant Electrical Engineer, Yonah (2019 - 2020) </li>
+                                        <li> Business Enhancement and Automation Intern, Apple (2021) </li>
+                                        <li> Student Researcher, NUS (2021-2022) </li>
+
+                                    </ul>
+                                    <li class="accent ">Honors/Awards: </li>
+                                    <ul>
+                                        <li> Dean’s list x 4, NUS </li>
+                                        <li> Infineon Technology Asia Pacific Prize (2021) </li>
+                                        <li> NUS-JTC Medal & Prize (Engineering) (2022) </li>
+                                        <li> IEEE Solid-State Circuits Society Singapore Chapter Prize (2022) </li>
+                                        <li> NAMD Microelectronics Prize (2022) </li>
+
+
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Ling-ke Ding  </b> <br>
+
+                                <a href="https://www.linkedin.com/in/lingke-ding-5ba0631b4 " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:ding359@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/lingke-ding-5ba0631b4 " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+                    <!-- Ming Che -->
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/MC.jpg " alt="Ming Che Li ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> Bachelor of Science in Electrical and Engineering, National Tsing Hua University, Hsinchu, Taiwan (2021) </li>
+
+
+                                    </ul>
+                                    <!-- 
+                                <li class="accent ">Honors/Awards: </li>
+            <ul>
+                
+               
+            </ul>
+            -->
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Ming-che Li </b> <br>
+
+                                <a href=" " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:li4509@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href=" " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- Harshit -->
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/HN.jpg " alt="Harshit ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> B.Tech in ECE, Birla Institute of Technology, MESRA, India. (2018-2022) </li>
+                                        <li> In- Depth Specialization degree in VLSI Systems, Birla Institute of Technology, MESRA, India. (2020-2022) </li>
+                                        <li> Bachelor Thesis, Indian Institute of Technology, Hyderabad, India. </li>
+                                        <li> Research Intern, RCI, Defense Research and Development Organization, Hyderabad. </li>
+                                        <li> SDE Intern (Machine Learning), GENPACT LLC. </li>
+
+                                    </ul>
+                                    <li class="accent ">Honors/Awards: </li>
+                                    <ul>
+                                        <li> G.P. Birla Scholarship </li>
+
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Harshit Naman  </b> <br>
+
+                                <a href="https://www.linkedin.com/in/naman-harshit/ " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:hnaman@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/naman-harshit/ " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+                    <!-- Dave -->
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Dave.png " alt="Harshit ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> BE from Southwest Petroleum University, China </li>
+                                        <li> MS from King Abdullah University of Science and Technology, Saudi Arabia </li>
+
+                                    </ul>
+                                    <li class="accent ">Honors/Awards: </li>
+                                    <ul>
+                                        <li> National Scholarship of China </li>
+                                        <li> Second prize in COMSOC Student Competition </li>
+
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Qi Huang (Dave) </b> <br>
+
+                                <a href="https://www.linkedin.com/in/qi-dave-huang-0b41391b4/ " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:huan2065@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/qi-dave-huang-0b41391b4/ " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- Sarthak -->
+
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Sarthak.png " alt="Harshit ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> B.Tech in ECE (Minor in Microelectronics and Embedded Systems), NSIT,Delhi, India. (2018-2022) </li>
+                                        <li> Research Intern, Texas Instruments Centre for Embedded Product Design, Delhi (2020-2023) </li>
+                                        <li> Research Intern, University of Alberta, Canada (May 2022- August 2022) </li>
+
+
+                                    </ul>
+                                    <li class="accent ">Honors/Awards: </li>
+                                    <ul>
+                                        <li> NTSE Scholar (2017) </li>
+                                        <li> INO in Physics Scholar, selected for Orientation Cum selection Camp (2018) </li>
+                                        <li> Mitacs Globalink Research Scholar (2022) </li>
+
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Sarthak Antal  </b> <br>
+
+                                <a href="www.linkedin.com/in/sarthakantal " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:santal@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="www.linkedin.com/in/sarthakantal " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+                    <!-- Ayan Biswas -->
+
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Ayan_Biswas.JPG " alt="Ayan_Biswas ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> B.E. (ETCE), Jadavpur University, India: 2019-2023 </li>
+                                        <li> IC Design Engineer, Ixana (Quasistatics Inc.), India: 2023-2024 </li>
+
+                                    </ul>
+                                    <li class="accent ">Honors/Awards: </li>
+                                    <ul>
+                                        <li> MITACS Globalink Research Internship (2022) - University of Guelph, Canada </li>
+                                        <li> Google Summer of Code (2021) - CircuitVerse, India </li>
+
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Ayan Biswas  </b> <br>
+
+                                <a href="https://www.linkedin.com/in/ayanbiswas0412 " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:ayanb@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="https://www.linkedin.com/in/ayanbiswas0412 " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+
+                    <!-- Abdullah -->
+
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Abdullah.jpg " alt="abdullah ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> BEng. (Computer), Multimedia University (MMU), Malaysia: 2020-2024 </li>
+                                        <li> Systems Engineer Intern, Infineon Technologies Memory Solutions: Aug 2023- May 2024 </li>
+
+
+
+                                    </ul>
+                                    <li class="accent ">Honors/Awards: </li>
+                                    <ul>
+                                        <li> Purdue Center for Secure Microelectronics Traineeship (2024) </li>
+                                        <li> MMU University Merit Scholarship (2020-2024) </li>
+                                        <li> Dean’s List Award in all semesters (2020-2024) </li>
+
+                                    </ul>
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Abdullah Sayeed </b> <br>
+
+                                <a href="www.linkedin.com/in/abdullah-sayeed " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:sayeeda@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="www.linkedin.com/in/abdullah-sayeed " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                    <!-- Chen -->
+
+                    <div class="card " style="width: 18rem ">
+                        <div class=" box_pic img__wrap ">
+                            <img src="static/img/team_21/Zhengbin_Chen.jpg " alt="chen ">
+                            <divo class="card-body ">
+                                <ul class="img__description ">
+                                    <li class="accent ">Degree/Experience:</li>
+                                    <ul>
+                                        <li> B.S.E., Engineering (Robotics); Arizona State University </li>
+                                    </ul>
+                                    <!-- <li class="accent ">Honors/Awards: </li>
+<ul>
+<li> NTSE Scholar (2017)  </li>
+<li> INO in Physics Scholar, selected for Orientation Cum selection Camp (2018)  </li>
+<li> Mitacs Globalink Research Scholar (2022) </li>
+
+</ul> -->
+
+                                </ul>
+                            </divo>
+                        </div>
+                        <div class="card-body ">
+                            <!--                        class="caption ">-->
+                            <p class="card-title "> <b>Zhengbin Chen</b> <br>
+
+                                <a href="www.linkedin.com " role="button "><i style="font-size:24px " class="fa ">&#xf0e1;</i></a>
+                                <a href="mailto:chen5243@purdue.edu " role="button "><i style="font-size:24px " class="fa ">&#xf003;</i></a>
+                                <a href="www.linkedin.com " role="button "> <i style="font-size:24px " class="fa ">&#xf0ac;</i></a>
+                            </p>
+                            <!--                                 <i style="font-size:24px " class="fa ">&#xf003;</i>-->
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+            <script>
+                filterSelection('all');
+
+                function filterSelection(c) {
+                    var x, i;
+                    x = document.getElementsByClassName("filterDiv");
+                    if (c == "all") c = "";
+                    for (i = 0; i < x.length; i++) {
+                        publicationRemove(x[i], "show");
+                        if (x[i].className.indexOf(c) > -1) publicationAdd(x[i], "show");
+                    }
+                }
+
+                function publicationAdd(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        if (arr1.indexOf(arr2[i]) == -1) {
+                            element.className += " " + arr2[i];
+                        }
+                    }
+                }
+
+                function publicationRemove(element, name) {
+                    var i, arr1, arr2;
+                    arr1 = element.className.split(" ");
+                    arr2 = name.split(" ");
+                    for (i = 0; i < arr2.length; i++) {
+                        while (arr1.indexOf(arr2[i]) > -1) {
+                            arr1.splice(arr1.indexOf(arr2[i]), 1);
+                        }
+                    }
+                    element.className = arr1.join(" ");
+                }
+
+                // Add active class to the current button (highlight it)
+                var btnContainer = document.getElementById("mySelectionBtn");
+                var btns = btnContainer.getElementsByClassName("btn");
+                for (var i = 0; i < btns.length; i++) {
+                    btns[i].addEventListener("click", function() {
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
+                    });
+                }
+            </script>
+
+
+            <script>
+                $(document).ready(function() {
+                    $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+                        var target = $(e.target).attr("id"); // activated tab
+                        console.log("Activated tab: " + target); // Debugging line
+                        if (target === 'book-tab' || target === 'patents-tab') {
+                            $('#mySelectionBtn').hide();
+                        } else {
+                            $('#mySelectionBtn').show();
+                        }
+                    });
+                });
+            </script>
+
+
+
+
+
+
+
+
+
+            <!-- Optional JavaScript -->
+
+            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+            <script src="../code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="../cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="../stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        </div>
+    </div>
+
+
+
+</body>
+
+<!-- Footer -->
+<!-- Footer -->
+<footer>
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+                <a class="btn-floating btn-fb mx-1" href="#">
+                    <i class="fab fa-facebook-f"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-tw mx-1" href="https://twitter.com/SPARCLab_Purdue">
+                    <i class="fab fa-twitter"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-gplus mx-1" href="#">
+                    <i class="fab fa-google-plus-g"> </i>
+                </a>
+            </li>
+            <li class="list-inline-item">
+                <a class="btn-floating btn-li mx-1" href="https://www.linkedin.com/in/S.sen/">
+                    <i class="fab fa-linkedin-in"> </i>
+                </a>
+            </li>
+
+
+
+
+
+        </ul>
+        <!-- Social buttons -->
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+
+    <!--    <div class="footer-copyright text-center py-3" style="color: whitesmoke">-->
+    <!--        &copy; Copyright 2019 by-->
+    <!--        <a href="home.html">SPARC</a>-->
+    <!--    </div>-->
+
+    <!-- Copyright -->
+
+</footer>
+
+<!-- Mirrored from SparcLab/publications by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 30 Jan 2020 00:28:44 GMT -->
+
+</html>
